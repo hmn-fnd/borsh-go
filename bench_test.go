@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/near/borsh-go"
+	"github.com/hmn-fnd/borsh-go"
 )
 
 type B struct {

@@ -1,6 +1,6 @@
 # borsh-go
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/near/borsh-go.svg)](https://pkg.go.dev/github.com/near/borsh-go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/hmn-fnd/borsh-go.svg)](https://pkg.go.dev/github.com/hmn-fnd/borsh-go)
 
 **borsh-go** is an implementation of the [Borsh] binary serialization format for Go
 projects.
@@ -27,7 +27,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/near/borsh-go"
+	"github.com/hmn-fnd/borsh-go"
 )
 
 type A struct {

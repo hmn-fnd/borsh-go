@@ -319,7 +319,7 @@ func deserializeUint128(t reflect.Type, r io.Reader) (interface{}, error) {
 
 // Serialize `s` into bytes according to Borsh's specification(https://borsh.io/).
 //
-// The type mapping can be found at https://github.com/near/borsh-go.
+// The type mapping can be found at https://github.com/hmn-fnd/borsh-go.
 func Serialize(s interface{}) ([]byte, error) {
 	result := new(bytes.Buffer)
 
